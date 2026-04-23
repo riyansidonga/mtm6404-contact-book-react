@@ -1,4 +1,16 @@
 # Contact Book
 
 ## Objective
-Use what you have learned about React, React Router, and Firestore to create a contact book web application, which allows a user to see and search through all contacts, add new contacts, and edit and delete existing contacts.
+This is a Contact Book web application built using React,React Router, and Firebase Firestore.The application allows users to manage contacts by adding, viewing, editing, deleting, and searching through them.
+
+---
+## Features
+
+- View all contacts 
+- Contacts sorted alphabetically by last name
+- Search contacts by first or last name
+- View individual contact details
+- Add new contacts
+- Edit existing contacts
+- Delete contacts
+- Data stored and managed using Firebase Firestore

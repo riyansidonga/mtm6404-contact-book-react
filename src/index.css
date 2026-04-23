@@ -7,6 +7,7 @@ body {
   font-family: Arial, sans-serif;
   background: #c6d2e9;
   color: #4077c4;
+  padding-bottom: 40px;
 }
 
 #root {
@@ -24,10 +25,11 @@ body {
   padding: 20px 25px;
   border-radius: 14px;
   box-shadow: 0 4px 14px rgba(0, 0, 0, 0.08);
-  margin-bottom: 30px;
+  margin-bottom: 20px;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  border: 1px solid #83a6ec;
 }
 
 .header h1 {
@@ -45,8 +47,8 @@ body {
   text-decoration: none;
   font-size: 1rem;
   font-weight: 600;
-  color: #2563eb;
-  padding: 4px 0;
+  color: #688ee0;
+  padding: 10px 0;
   transition: color 0.2s ease;
 }
 
@@ -69,25 +71,21 @@ body {
   width: 100%;
 }
 
-.nav-links .btn-active {
-  color: #111827;
-}
-
 .nav-links .btn-active::after {
   width: 100%;
-  background: #111827;
+  background: #4077c4;
 }
 
 main {
-  background: white;
+  background: rgb(255, 255, 255);
   border-radius: 14px;
   padding: 25px;
   box-shadow: 0 4px 14px rgba(0, 0, 0, 0.08);
 }
 
 h2 {
-  margin-top: 0;
-  margin-bottom: 15px;
+  margin-top: 10px;
+  margin-bottom: 20px;
 }
 
 input {
@@ -111,12 +109,13 @@ ul {
 }
 
 li {
-  background: #f9fafb;
+  background: #ffffff;
   padding: 14px 16px;
   margin-bottom: 12px;
   border-radius: 10px;
   border: 1px solid #e5e7eb;
   transition: 0.2s;
+  border: 1px solid #83a6ec;
 }
 
 li:hover {
@@ -131,7 +130,7 @@ li a {
 }
 
 li a:hover {
-  color: #2563eb;
+  color: #4077c4;
 }
 
 .btn {
@@ -156,25 +155,25 @@ li a:hover {
 }
 
 .btn-edit {
-  background: #10b981;
+  background: #47be97;
   color: white;
 }
 
 .btn-edit:hover {
-  background: #059669;
+  background: #279a75;
 }
 
 .btn-delete {
-  background: #ef4444;
+  background: #e87272;
   color: white;
 }
 
 .btn-delete:hover {
-  background: #dc2626;
+  background: #d93a3a;
 }
 
 .btn-create {
-  background: #2563eb;
+  background: #5b85e0;
   color: white;
   border: none;
   padding: 12px 22px;
@@ -186,7 +185,7 @@ li a:hover {
 }
 
 .btn-create:hover {
-  background: #1d4ed8;
+  background: #476cd1;
 }
 
 .btn-create:active {
@@ -200,14 +199,14 @@ li a:hover {
 }
 
 .contact-details {
-  background: #f9fafb;
+  background: #f2f2f2;
   padding: 20px;
   border-radius: 12px;
-  border: 1px solid #e5e7eb;
+  border: 1px solid #83a6ec;
 }
 
 form {
-  max-width: 500px;
+  max-width: 800px;
 }
 
 @media (max-width: 600px) {
